@@ -1,0 +1,203 @@
+/*The CSS page is what formats your page to look the way it looks. Without it, all you would see is ugly text with no organization! It is also an easy way to make aesthetic adjustments to all pages at once like changing the background or text colour*/
+
+/*==========================
+The main body, this is the base of your page. Most things override this though*/
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    background-color: #535353;
+    /*This is your background. You can chose to have a picture instead by inserting 'background-image: url("example.gif");'*/
+    margin: 0px;
+    padding: 10px;
+}
+
+/*==========================*/
+
+
+/*==========================
+This is to format your Adventure log*/
+table {
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+table,
+td {
+    font-weight: bold;
+    text-align: left;
+}
+
+/*==========================*/
+
+img {
+    margin-top: 10px;
+}
+
+/*==========================
+This is how you colour your hyperlinks*/
+a:link {
+    /*general link*/
+    color: blue;
+}
+
+a:visited {
+    /*A link youve already clicked on*/
+    color: purple;
+}
+
+a:hover {
+    /*When you hover your mouse over the link*/
+    color: blue;
+}
+
+a:active {
+    /*During mid link click*/
+    color: red;
+}
+
+/*==========================*/
+
+
+/*==========================
+This is to position the navigation banner at the top of your title page. not to be confused with .navigation further below*/
+.nav {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    height: 15px;
+    padding: 2px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.nav img {
+    margin-bottom: -5;
+    padding-left: 5;
+    padding-right: 5;
+}
+
+/*==========================*/
+
+
+/*==========================
+All this is your comic. you can change the secondary background and main content section here.*/
+.slide {
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    width: 950px;
+    background-color: #c6c6c6;
+}
+
+.content {
+    width: 650px;
+    margin: auto;
+}
+
+.Heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EEE;
+    color: #000;
+    font-weight: bold;
+    font-family: courier, monospace;
+    font-size: 33;
+    line-height: 38px;
+}
+
+.graphics {
+    background-color: #EEE;
+}
+
+.text {
+    width: 600px;
+    text-align: center;
+    padding: 25px;
+    background-color: #EEE;
+    color: #000;
+    font-weight: bold;
+    font-family: courier, monospace;
+}
+
+.nextPage {
+    width: 625px;
+    text-align: left;
+    padding-left: 25px;
+    background-color: #EEE;
+    font-size: 25;
+    margin-top: -2px;
+    padding-bottom: 25px;
+    color: #000000;
+}
+
+.navigate {
+    width: 625px;
+    text-align: left;
+    padding-left: 25px;
+    background-color: #EEE;
+    font-size: 10;
+    margin-top: -2px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.pageNo {
+    margin: auto;
+    width: 600px;
+    padding: 25px;
+    font-weight: bold;
+    font-family: courier, monospace;
+    font-size: 15;
+    color: #000000;
+}
+
+/*==========================*/
+
+
+/*==========================
+This is the spoiler code to make the drop down pesterlogs work*/
+.spoilerbutton {
+    display: inline-block;
+    margin: -11px 0px;
+}
+
+.spoiler {
+    overflow: auto;
+}
+
+.spoiler>div {
+    line-height: 18.9px;
+    text-align: left;
+}
+
+.spoilerbutton[value="Show Pesterlog"]+.spoiler>div {
+    max-height: 0;
+}
+
+.spoilerbutton[value="Hide Pesterlog"]+.spoiler>div {
+    padding: 5px;
+    padding-top: 25px;
+}
+
+.spoiler-border {
+    padding: 12px;
+    border: 1px dashed gray;
+    padding-left: 32.5px;
+    padding-right: 32.5px;
+    align-content: center;
+}
+
+/*==========================*/

@@ -1,0 +1,75 @@
+<html>
+<!--Feel free to delete these comments at any time. They do not show on the actual page so you wont see my blabbering take up your panel page.-->
+
+<head>
+    <!--This simply tells your browser what doc type it is-->
+    <!DOCTYPE html>
+    <!--ditto above but for language.-->
+    <html lang="en">
+    <!--Again but with the unicode-->
+    <meta charset="utf-8" />
+
+    <!--these 3 links are what displays the little icon next to your page name in the browser tab.-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <!--This is the title of your adventure. It's also whats displayed in your browser tab. Change this to your adventure title-->
+    <title>
+        Example Adventure
+    </title>
+
+    <!--This loads the CSS, the file that makes your page look pretty. without it, all you would see is a picture and ugly text.-->
+    <link rel="stylesheet" type="text/css" href="data/default.css" />
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <!--This nav bar is optional. It's handled remotely through a light javascript. Much like CSS but more advanced-->
+            <script type="text/javascript" src="data/navbar.js" />
+            </script>
+        </div>
+    </header>
+
+    <div class="slide">
+
+        <div class="content">
+
+            <!--This is the page title. it is separate to the other title above. Generally you put the previous command here.-->
+            <div class="Heading">
+                Homestuck
+            </div>
+
+            <!--This is the panel, rather self explanatory. Make sure you a precise with the file type, eg. 0001.png-->
+            <div class="graphics">
+                <img src="img/Title.gif">
+            </div>
+
+            <!--Put your story text here!-->
+            <div class="text">
+                This is the title page.
+                <br><br>
+                Generally people put a fun title here but you can just start off with the first
+                page.
+            </div>
+
+            <!--This is how you go to the next page. -->
+            <div class="nextPage">
+                &gt; <a href="pages/0002.html">
+                    Enter name.
+                </a>
+            </div>
+
+        </div>
+
+        <!--Page number, not much to say.-->
+        <div class="pageNo">
+            Page: 1
+        </div>
+
+    </div>
+
+</body>
+
+</html>
