@@ -1,5 +1,5 @@
 # MSPFA-Offline-Template
-A template to store your <a href="https://mspfa.com/" target="_blank">MSPFA Fanventure</a> offline, even host bonus pages on pipe.
+A template to store your <a href="https://mspfa.com/">MSPFA Fanventure</a> offline, even host bonus pages on pipe.
 
 Recommend opening in a dedicated program. <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a> and <a href="https://code.visualstudio.com/download">VS Code</a> are two very good free choices (I use VS Code).
 
